@@ -1,0 +1,55 @@
+
+body {
+  font-family: Roboto, fantasy; background-color: #000000;
+  text-align: center; color: #FFF8DC;
+}
+
+.merch {
+  color: blue;
+}
+
+.container {
+  padding: 0 40px;
+  margin-left: 100px;
+}
+
+h1 {
+  font-family: matura mt script capitals;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 90px;
+  margin: 40px 0;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #8B0000;
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:darkred;
+}
+
+  
+
